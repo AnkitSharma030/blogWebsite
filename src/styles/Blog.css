@@ -1,12 +1,13 @@
 .blog{
     height: auto;
- 
-    background-color:  #fff
-;
-    margin-top: 150px;
+    /* background-color:  #2fb3909c; */
+    margin-top: 250px;
     color: rgb(16, 18, 19);
-    padding: 4rem 2rem;
+    padding: 4rem 2rem; 
     text-align: center;
+    border: 10px solid black;   
+    border-radius: 30px;
+    
 }
 
 .blog-list{
@@ -16,11 +17,17 @@
     gap: 2rem;
     margin: 30px;
     padding: 30px;
+    cursor: pointer;
 }
 .blogcard{
      border: 5px solid #24ad9b;
+     border-radius: 20%;
   padding: 1.5rem;
-  width: 300px;
-  border-radius: 8px;
+  width: 250px;
+  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blogcard p{
+    font-size: 1.5rem;
 }

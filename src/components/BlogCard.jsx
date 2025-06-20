@@ -1,11 +1,11 @@
 const BlogCard=(props)=>{
-    const {title, description, link}=props;
+    const {title, description, img}=props;
 
     return(
         <div className="blogcard">
             <h3>{title}</h3>
             <p>{description}</p>
-            <img src={link} alt="" />
+             <img src={img} alt={title} style={{ width: '100%', height: 'auto' }} />
         </div>
     );
 }

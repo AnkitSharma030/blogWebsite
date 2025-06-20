@@ -1,0 +1,26 @@
+.blog{
+    height: auto;
+ 
+    background-color:  #fff
+;
+    margin-top: 150px;
+    color: rgb(16, 18, 19);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.blog-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 30px;
+    padding: 30px;
+}
+.blogcard{
+     border: 5px solid #24ad9b;
+  padding: 1.5rem;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
